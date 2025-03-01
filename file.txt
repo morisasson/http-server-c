@@ -1,0 +1,9 @@
+HTTP/1.0 200 OK
+Server: webserver/1.0
+Date: Fri, 05 Nov 2010 06:53:58 GMT
+[Content-Type: <type/subtype>] //optional
+Content-Length: <content-length>
+Last-Modified: Wed, 27 Oct 2010 06:50:29 GMT
+Connection: close
+
+<file-data>

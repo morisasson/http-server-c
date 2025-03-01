@@ -1,0 +1,12 @@
+HTTP/1.0 302 Found
+Server: webserver/1.0
+Date: Thu, 04 Nov 2010 12:18:00 GMT
+Location: <path>\ 
+Content-Type: text/html
+Content-Length: 123
+Connection: close
+
+<HTML><HEAD><TITLE>302 Found</TITLE></HEAD>
+<BODY><H4>302 Found</H4>
+Directories must end with a slash.
+</BODY></HTML>

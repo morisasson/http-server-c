@@ -1,0 +1,20 @@
+HTTP/1.0 200 OK
+Server: webserver/1.0
+Date: Fri, 05 Nov 2010 06:53:58 GMT
+Content-Type: text/html
+Content-Length: <content-length>
+Last-Modified: Wed, 27 Oct 2010 06:50:29 GMT
+Connection: close
+
+<HTML>
+<HEAD><TITLE>Index of <path-of-directory></TITLE></HEAD>
+<BODY>
+<H4>Index of <path-of-directory></H4>
+<table CELLSPACING=8>
+<tr><th>Name</th><th>Last Modified</th><th>Size</th></tr>
+<!-- for each entity in the path add the following -->
+<tr><td><A HREF="<entity-name>"><entity-name (file or sub-directory)></A></td><td><modification time></td><td><if entity is a file, add file size, otherwise, leave empty></td></tr>
+</table>
+<HR>
+<ADDRESS>webserver/1.0</ADDRESS>
+</BODY></HTML>
